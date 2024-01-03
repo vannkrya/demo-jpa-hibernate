@@ -1,6 +1,6 @@
 package com.example.demojphibernate01.controller;
 
-import com.example.demojphibernate01.entity.Employee;
+import com.example.demojphibernate01.entity.model.Employee;
 import com.example.demojphibernate01.repository.EmployeeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Date;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 @RequiredArgsConstructor
 public class EmployeeController {
 

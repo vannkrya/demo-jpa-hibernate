@@ -1,4 +1,4 @@
-package com.example.demojphibernate01.entity;
+package com.example.demojphibernate01.entity.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

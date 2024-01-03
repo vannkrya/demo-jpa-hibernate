@@ -1,6 +1,6 @@
 package com.example.demojphibernate01.repository;
 
-import com.example.demojphibernate01.entity.Employee;
+import com.example.demojphibernate01.entity.model.Employee;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
